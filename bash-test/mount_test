@@ -1,0 +1,11 @@
+mount_ok=0
+if [ mount_ok -eq 0 ]; then
+    mount_ok=1
+fi
+
+if [ mount_ok ]; then
+    echo "mount_ok is true"
+else
+    echo "mount_ok is false"
+fi
+
