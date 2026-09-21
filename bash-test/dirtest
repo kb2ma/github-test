@@ -1,5 +1,5 @@
 echo "Testing -d test"
-if [ -d "/usr/lib/NetworkManager/system-connections" ] ; then
-    echo "Found NetworkManager system-connections dir"
+if [ -d "/usr/lib/go-1.13/bin" ] ; then
+    echo "found go bin dir"
 fi
 
